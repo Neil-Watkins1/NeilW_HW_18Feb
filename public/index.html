@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Word Count</title>
+<script src="./js/bundle.js"></script>
+  </head>
+  <h1>Word Count</h1>
+<div id="app">
+  <br>
+  <br>
+  <h2>Enter some text here:</h2>
+
+
+
+
+
+  <body>
+
+
+
+
+<textarea name="name" rows="8" cols="80" v-model="phrase"></textarea>
+    <button v-on:click="countWords">Count Words</button>
+
+
+    <p>This phrase contains {{ countWords }} words.</p>
+</div>
+  </body>
+
+</html>
